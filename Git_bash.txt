@@ -1,0 +1,83 @@
+
+Lucas Gabriel@DESKTOP-3QHKPVL MINGW64 ~/Documents/C#/Herança (master)
+$ git config --global user.name "Lucas Gabriel"
+
+Lucas Gabriel@DESKTOP-3QHKPVL MINGW64 ~/Documents/C#/Herança (master)
+$ git config --global user.email "lucasg2018@outlook.com"
+
+Lucas Gabriel@DESKTOP-3QHKPVL MINGW64 ~/Documents/C#/Herança (master)
+$ git status                                                                  <===== Status: Nada salvo e nem adicionado
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        "Heran\303\247a_Polimorfismo.sln"
+        "Heran\303\247a_Polimorfismo/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lucas Gabriel@DESKTOP-3QHKPVL MINGW64 ~/Documents/C#/Herança (master)
+$ git add .                                                               <===== Comando para adicionar essa versão do projeto
+
+Lucas Gabriel@DESKTOP-3QHKPVL MINGW64 ~/Documents/C#/Herança (master)
+$ git status                                                              <===== Status: Projeto adicionado
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   "Heran\303\247a_Polimorfismo.sln"
+        new file:   "Heran\303\247a_Polimorfismo/Entities/Account.cs"
+        new file:   "Heran\303\247a_Polimorfismo/Entities/BusinessAccount.cs"
+        new file:   "Heran\303\247a_Polimorfismo/Entities/SavingsAccount.cs"
+        new file:   "Heran\303\247a_Polimorfismo/Program.cs"
+        new file:   "Heran\303\247a_Polimorfismo/Upcasting_E_Downcasting.csproj"
+
+
+Lucas Gabriel@DESKTOP-3QHKPVL MINGW64 ~/Documents/C#/Herança (master)
+$ git commit -m "Projeto feito com o decorrer das aulas de herança e polimorfismo"                 <===== Comando para salvar e colocar a descrição do projeto
+[master (root-commit) a432246] Projeto feito com o decorrer das aulas de herança e polimorfismo
+ 7 files changed, 835 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 "Heran\303\247a_Polimorfismo.sln"
+ create mode 100644 "Heran\303\247a_Polimorfismo/Entities/Account.cs"
+ create mode 100644 "Heran\303\247a_Polimorfismo/Entities/BusinessAccount.cs"
+ create mode 100644 "Heran\303\247a_Polimorfismo/Entities/SavingsAccount.cs"
+ create mode 100644 "Heran\303\247a_Polimorfismo/Program.cs"
+ create mode 100644 "Heran\303\247a_Polimorfismo/Upcasting_E_Downcasting.csproj"
+
+Lucas Gabriel@DESKTOP-3QHKPVL MINGW64 ~/Documents/C#/Herança (master)
+$ git status                                                                <===== Status: nada para commitar(Salvar)
+On branch master
+nothing to commit, working tree clean
+
+Lucas Gabriel@DESKTOP-3QHKPVL MINGW64 ~/Documents/C#/Herança (master)
+$ git log                                                                   <=====Comando para ver o usuário que alterou recentemente o projeto
+commit a432246b52873b63cdc078c5665b97347b64fccd (HEAD -> master)
+Author: Lucas Gabriel <lucasg2018@outlook.com>
+Date:   Sat Sep 14 18:48:32 2019 -0300
+
+    Projeto feito com o decorrer das aulas de herança e polimorfismo
+
+Lucas Gabriel@DESKTOP-3QHKPVL MINGW64 ~/Documents/C#/Herança (master)         
+$                                                              
+
+
+
+OBS.: Se você esquecer de informar a descrição no commit, para sair pressione esc e digite :q!
+
+OBS.2: Se você desejar retornar a versão anterior, faça: git clean -df depois git checkout -- .
+
+OBS.3: Se você quiser remover o último commit, mantendo as alterações no arquivo, faça: git reset --soft HEAD~1
+	Mas para também remover os arquivos, faça: git reset --hard HEAD~1
+OBS.4: Se você quiser ver a versão anterior, faça git checkout *Coloque aqui o número referente a versão sem os asteriscos*
+	Para sair dessa versão faça: git checkout master
+OBS.5: Para associar o projeto Git ao Github, faça: git remote add apelido url
+	E para transferir para o Github faça: git push -u origin master
+		Para transferir uma nova versão, faça: git push
+OBS.6: Comando para atualizar as versões, faça: git pull apelido master
