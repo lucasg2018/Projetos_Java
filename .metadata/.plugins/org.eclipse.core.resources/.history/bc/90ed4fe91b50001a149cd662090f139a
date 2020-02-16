@@ -1,0 +1,16 @@
+package program;
+
+import java.util.Scanner;
+import entities.Conta;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Conta conta = new Conta();
+		
+		
+		
+		sc.close();
+	}	
+}
