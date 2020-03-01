@@ -1,9 +1,0 @@
-package entities;
-
-public class Conta {
-	private int numConta;
-	private String nome;
-	private double deposito;
-	
-	
-}
