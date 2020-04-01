@@ -6,28 +6,39 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-		final double multa = 0.004, desconto = 0.05;
-		double total = 0, juros;
-		int vencimento = 5;
+		double mesJ = 0, mesF = 0, mesM = 0, mesA = 0;
 
-		System.out.print("Informe o valor da parcela: ");
-		double valP = ler.nextDouble();
-		System.out.print("Informe o dia do pagamento: ");
-		int pagamento = ler.nextInt();
+		for (int i = 1; i <= 6; i++) {
+			System.out.printf("\n%dº Veículo\n", i);
+			System.out.print("Informe o valor do carro: ");
+			double valor = ler.nextDouble();
+			ler.nextLine();
+			System.out.print("Informe a placa do carro(KKK-1234): ");
+			String placa = ler.nextLine();
 
-		if (vencimento < pagamento) {
-			juros = ((pagamento - vencimento) * (valP * multa)) ;
-			System.out.println("\nDias de atraso: " + (pagamento - vencimento));
-			System.out.println("O juros: " + juros);
-			total = valP + juros;
-		} else {
-			System.out.println("\nSem atrasos!");
-			System.out.println("Desconto: " + (valP * desconto));
-			total = valP - (valP * desconto);
+			String letra = placa.substring(7, 8);
+
+			if (letra.equals("1") || letra.equals("2") || letra.equals("3")) {
+				System.out.println("O mês de pagamento é Janeiro!");
+				mesJ += valor * 0.1;
+			} else if (letra.equals("4") || letra.equals("5") || letra.equals("6")) {
+				System.out.println("O mês de pagamento é Fevereiro!");
+				mesF += valor * 0.1;
+			} else if (letra.equals("7") || letra.equals("8") || letra.equals("9")) {
+				System.out.println("O mês de pagamento é Março!");
+				mesM += valor * 0.1;
+			} else {
+				System.out.println("O mês de pagamento é Abril!");
+				mesA += valor * 0.1;
+			}
 		}
-
-		System.out.println("Valor total do pagamento: " + total);
-
+		
+		System.out.print("\nTotal arrecadado no mês de Janeiro: " + mesJ + " Reais");
+		System.out.print("\nTotal arrecadado no mês de Fevereiro: " + mesF + " Reais");
+		System.out.print("\nTotal arrecadado no mês de Março: " + mesM + " Reais");
+		System.out.print("\nTotal arrecadado no mês de Abril: " + mesA + " Reais");
+		System.out.println("\nTotal geral: " + (mesJ + mesF + mesM + mesA) + " Reais");
+		
 		ler.close();
 	}
 }

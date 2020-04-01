@@ -13,7 +13,11 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_Matriz"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_ExercicioFixacao_Her&amp;Pol"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Testes"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_Herança"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_ExercicioResolvido_Her&amp;Pol"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Primeiro_Programa"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Atividade1_POO"/>
 		</list>
