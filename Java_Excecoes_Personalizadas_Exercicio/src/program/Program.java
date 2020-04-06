@@ -24,6 +24,11 @@ public class Program {
 			
 			Account acc = new Account(number, holder, balance, withdrawLimit);
 			
+			System.out.print("Enter amount for withdraw: ");
+			double amount = ler.nextDouble();
+			acc.withdraw(amount);
+			
+			System.out.println(acc);
 		}catch(DomainException e) {
 			System.out.println(e.getMessage());
 		}catch (RuntimeException e) {

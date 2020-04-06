@@ -64,4 +64,10 @@ public class Account {
 		
 		balance -= amount;
 	}
+	
+	@Override
+	public String toString() {
+		return "New balance "
+				+ balance;
+	}
 }
