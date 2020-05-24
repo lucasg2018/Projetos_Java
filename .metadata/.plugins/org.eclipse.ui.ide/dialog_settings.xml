@@ -13,6 +13,15 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Deletando_Dados"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Atualizando _Dados"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Recuperando_Dados"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Inserindo_Dados"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Projetos das Aulas\demo-dao-jdbc"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Teste"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_Curingas_Delimitados_part2"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Interface\Java_Interface_Comparable"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Generics\Java_Genericos_Delimitados"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Testes"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_Date_Calendar"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Projeto_Funcionario"/>
@@ -24,7 +33,6 @@
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_Herança"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_ExercicioResolvido_Her&amp;Pol"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Primeiro_Programa"/>
-			<item value="C:\Users\Lucas Gabriel\Documents\Java\Atividade1_POO"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

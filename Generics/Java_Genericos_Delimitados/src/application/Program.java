@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Scanner;
 
 import model.entities.Product;
@@ -14,6 +15,7 @@ public class Program {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
+		Locale.setDefault(Locale.US);
 		List<Product> list = new ArrayList<>();
 		String path = "C:\\Users\\Lucas Gabriel\\Documents\\out.txt";
 
@@ -26,8 +28,8 @@ public class Program {
 				line = br.readLine();
 			}
 			
-			Integer x = CalculationService.max(list);
-			System.out.println("Max:");
+			Product x = CalculationService.max(list);
+			System.out.println("Most expensive:");
 			System.out.print(x);
 			
 		} catch (IOException e) {
