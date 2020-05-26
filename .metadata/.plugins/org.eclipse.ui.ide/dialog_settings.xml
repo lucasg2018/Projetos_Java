@@ -13,26 +13,26 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Teste"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Manipulação de Arquivos\Java_Exercicio_Arquivos"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Manipulação de Arquivos\Java_Criando_Arquivos"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Projeto_Funcionario"/>
+			<item value="C:\Users\Lucas Gabriel\Documents\Java\Exceções\Java_Excecoes_Personalizadas_Exercicio"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Deletando_Dados"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Atualizando _Dados"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Recuperando_Dados"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Inserindo_Dados"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Projetos das Aulas\demo-dao-jdbc"/>
-			<item value="C:\Users\Lucas Gabriel\Documents\Java\Teste"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_Curingas_Delimitados_part2"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Interface\Java_Interface_Comparable"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Generics\Java_Genericos_Delimitados"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Testes"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_Date_Calendar"/>
-			<item value="C:\Users\Lucas Gabriel\Documents\Java\Projeto_Funcionario"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_Excecoes_Personalizadas"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_Exercicio_Enum"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_Lendo_Date"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_Matriz"/>
 			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_ExercicioFixacao_Her&amp;Pol"/>
-			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_Herança"/>
-			<item value="C:\Users\Lucas Gabriel\Documents\Java\Java_ExercicioResolvido_Her&amp;Pol"/>
-			<item value="C:\Users\Lucas Gabriel\Documents\Java\Primeiro_Programa"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
